@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html">Sobre</a>
+    <a href="index.html">Dados</a>
+    <a href="index.html">Leis</a>
+    <a href="index.html">Cuidados</a>
+    <a href="index.html">Ajuda</a>
+    </nav>
+
+   <h2 class="h2">Você precisa de ajuda?</h2>
+
+<form onsubmit="enviarFormulario(event)">
+
+  <label class="opn1">Como você está se sentindo?</label><br>
+  <input type="text" id="sentimento" required><br><br>
+
+  <label class="opn2">Você se sente em perigo?</label><br>
+  <select id="perigo">
+    <option>.</option>
+    <option>Sim</option>
+    <option>Não</option>
+    <option>Não sei</option>
+  </select><br><br>
+
+  <label class="opn3">Você já conversou com alguém sobre isso?</label><br>
+  <select id="apoio">
+    <option>.</option>
+    <option>Sim</option>
+    <option>Não</option>
+  </select><br><br>
+
+  <label class="opn4">Quer contar o que está acontecendo?</label><br>
+  <textarea id="relato" rows="4"></textarea><br><br>
+
+  <button class="enviar" type="submit">Enviar</button>
+
+</form>
+
+<p id="resposta"></p> 
+
+<script src="script.js"></script>
+
+<footer>
+    <p>© 2026 - Projeto de Conscientização</p>
+    <h3>Projeto com fins educativos</h3>
+</footer>
+</body>
+</html

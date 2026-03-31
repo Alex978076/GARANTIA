@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f1a, #240046);
+    color: #fff;
+}
+
+/* MENU */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f72585;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 2s ease;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* SEÇÕES */
+section {
+    min-height: 100vh;
+    padding: 100px 10%;
+    animation: fadeUp 1s ease;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #f72585;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* TEXTO */
+p, li {
+    line-height: 1.6;
+}
+
+/* CARDS */
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.1);
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #f72585;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff0676;
+    transform: scale(1.1);
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.div-pesquisa{
+    display: flex;
+    text-decoration: none;
+    color:#240046;
+    justify-content: initial;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    height: 60px;
+    width: 130px;
+}
+
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
+
+/*PAGINA DE PESQUISA*/
+
+form {
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    margin-top: 100px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button.enviar {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
