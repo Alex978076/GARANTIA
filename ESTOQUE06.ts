@@ -11,12 +11,12 @@ interface ItemEstoque {
   minimo: number
 }
 
-const estoque: ItemEstoque[] = [
-  { id: 1, nome: "Papel A4", quantidade: 10, minimo: 5 },
-       { id: 2, nome: "Caneta azul", quantidade: 30, minimo: 10 },
-         { id: 3, nome: "Toner impressora", quantidade: 3, minimo: 2 },
-  { id: 4, nome: "Grampeador", quantidade: 5, minimo: 3 },
-]
+const estoque: ItemEstoque[] = []
+frota.push ( { id: 1, nome: "Papel A4", quantidade: 10, minimo: 5 }),
+  frota.push    ( { id: 2, nome: "Caneta azul", quantidade: 30, minimo: 10 }),
+   frota.push    (  { id: 3, nome: "Toner impressora", quantidade: 3, minimo: 2 }),
+frota.push ( { id: 4, nome: "Grampeador", quantidade: 5, minimo: 3 }),
+
 
       console.log("=== Estoque atual ===")
 for (let i = 0; i < estoque.length; i++) {
