@@ -11,13 +11,13 @@ interface Pedido {
   status: "pendente" | "enviado" | "cancelado"
 }
 
-const pedidos: Pedido[] = [
-       { id: 1, cliente: "Renata Freitas", valor: 150.00, status: "enviado" },
-  { id: 2, cliente: "Sergio Campos", valor: 320.50, status: "pendente" },
-       { id: 3, cliente: "Tania Ribeiro", valor: 89.90, status: "cancelado" },
-    { id: 4, cliente: "Ubiratan Alves", valor: 200.00, status: "enviado" },
-  { id: 5, cliente: "Vera Lucia", valor: 430.00, status: "pendente" },
-]
+const pedidos: Pedido[] = []
+ frota.push     ( { id: 1, cliente: "Renata Freitas", valor: 150.00, status: "enviado" }),
+ frota.push ({ id: 2, cliente: "Sergio Campos", valor: 320.50, status: "pendente" }),
+ frota.push   (   { id: 3, cliente: "Tania Ribeiro", valor: 89.90, status: "cancelado" }),
+ frota.push  ( { id: 4, cliente: "Ubiratan Alves", valor: 200.00, status: "enviado" }),
+frota.push  ({ id: 5, cliente: "Vera Lucia", valor: 430.00, status: "pendente" }),
+
 
 // somando so os pedidos que foram enviados
    let totalEnviados = 0
