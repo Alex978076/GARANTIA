@@ -12,15 +12,15 @@ interface Colaborador {
 }
 
 // pelo menos 7 colaboradores como pedido
-const colaboradores: Colaborador[] = [
-     { id: 1, nome: "Tatiane Moura", setor: "TI", salario: 4500 },
-        { id: 2, nome: "Felipe Neves", setor: "RH", salario: 3200 },
-        { id: 3, nome: "Isabela Torres", setor: "TI", salario: 5000 },
-  { id: 4, nome: "Marcos Vinicius", setor: "Financeiro", salario: 3800 },
-               { id: 5, nome: "Patricia Lima", setor: "RH", salario: 2900 },
-  { id: 6, nome: "Rafael Braga", setor: "TI", salario: 4800 },
-  { id: 7, nome: "Vanessa Cunha", setor: "Financeiro", salario: 4100 },
-]
+const colaboradores: Colaborador[] = []
+ frota.push  (  { id: 1, nome: "Tatiane Moura", setor: "TI", salario: 4500 }),
+ frota.push      ( { id: 2, nome: "Felipe Neves", setor: "RH", salario: 3200 }),
+ frota.push     (  { id: 3, nome: "Isabela Torres", setor: "TI", salario: 5000 }),
+frota.push ( { id: 4, nome: "Marcos Vinicius", setor: "Financeiro", salario: 3800 }),
+ frota.push             ( { id: 5, nome: "Patricia Lima", setor: "RH", salario: 2900 }),
+frota.push ( { id: 6, nome: "Rafael Braga", setor: "TI", salario: 4800 }),
+ frota.push( { id: 7, nome: "Vanessa Cunha", setor: "Financeiro", salario: 4100 }),
+
 
 // somando todos os salarios
        let totalSalarios = 0
