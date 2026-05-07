@@ -12,12 +12,12 @@ interface Cliente {
 }
 
 // 5 clientes cadastrados
-const clientes: Cliente[] = [
-      { id: 1, nome: "Amanda Ferreira", email: "amanda@gmail.com", ativo: true },
-  { id: 2, nome: "Bruno Castro", email: "bruno@gmail.com", ativo: false },
-      { id: 3, nome: "Camila Rocha", email: "camila@gmail.com", ativo: true },
-       { id: 5, nome: "Elaine Souza", email: "elaine@gmail.com", ativo: false },
-]
+const clientes: Cliente[] = []
+  frota.push   ( { id: 1, nome: "Amanda Ferreira", email: "amanda@gmail.com", ativo: true }),
+ frota.push ({ id: 2, nome: "Bruno Castro", email: "bruno@gmail.com", ativo: false }),
+  frota.push    ({ id: 3, nome: "Camila Rocha", email: "camila@gmail.com", ativo: true }),
+   frota.push    ({ id: 5, nome: "Elaine Souza", email: "elaine@gmail.com", ativo: false }),
+
 
 // pedindo o id pro usuario
        let entrada = prompt("Digite o ID do cliente: ")
