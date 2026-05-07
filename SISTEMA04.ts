@@ -11,13 +11,13 @@ interface Chamado {
 }
 
 // cadastrei 5 chamados
-const chamados: Chamado[] = [
-  { id: 1, solicitante: "Joao Silva", descricao: "Computador nao liga", prioridade: "alta", resolvido: false },
-  { id: 2, solicitante: "Maria Oliveira", descricao: "Sem acesso a internet", prioridade: "alta", resolvido: false },
-  { id: 3, solicitante: "Pedro Santos", descricao: "Mouse com defeito", prioridade: "baixa", resolvido: true },
-  { id: 4, solicitante: "Ana Costa", descricao: "Tela piscando", prioridade: "media", resolvido: false },
-  { id: 5, solicitante: "Bruno Lima", descricao: "Teclado quebrado", prioridade: "alta", resolvido: true },
-]
+const chamados: Chamado[] = []
+frota.push ( { id: 1, solicitante: "Joao Silva", descricao: "Computador nao liga", prioridade: "alta", resolvido: false }),
+ frota.push ({ id: 2, solicitante: "Maria Oliveira", descricao: "Sem acesso a internet", prioridade: "alta", resolvido: false }),
+ frota.push ({ id: 3, solicitante: "Pedro Santos", descricao: "Mouse com defeito", prioridade: "baixa", resolvido: true }),
+frota.push  ({ id: 4, solicitante: "Ana Costa", descricao: "Tela piscando", prioridade: "media", resolvido: false }),
+ frota.push ({ id: 5, solicitante: "Bruno Lima", descricao: "Teclado quebrado", prioridade: "alta", resolvido: true }),
+
 
 // listando os chamados nao resolvidos
 console.log("=== Chamados nao resolvidos ===")
